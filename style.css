@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /* ### Neutral */
+    --VerydarkbluemainBG: hsl(217, 54%, 11%);
+    --VerydarkbluecardBG: hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+     --Fontsizeparagraph: 18px
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:var(--VerydarkbluemainBG);
+}
+
+main{
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+    background-color: var(--VerydarkbluecardBG);
+}
+
+main img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.ethereum{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--Verydarkblueline);
+    padding: 10px;
+}
+
+.ethereum img{
+    width: 20px;
+    height: 20px;
+}
+#eth-text{
+    color: var(--Cyan);
+
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.profile{
+    display: flex;
+    padding-top: 25px;
+}
+
+.profile img{
+    width: 20px;
+    height: 20px;
+   
+} 
+.main-text h2{
+    color: var(--White);
+    padding: 10px;
+    
+   
+}
+
+.main-text p{
+    color: var(--Softblue);
+    font-size: var(--Fontsizeparagraph);
+}
+
+.name{
+    color: var(--White);
+}
+.profile p{
+    color: #ccc;
+}
